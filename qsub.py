@@ -7,7 +7,7 @@ import sys
 import subprocess
 import time
 
-jobs = int(subprocess.check_output("showq | grep areagan | wc -l",shell=True))
+jobs = int(subprocess.check_output("showq | grep rjgallag | wc -l",shell=True))
 print(jobs)
 
 max_jobs = 150
@@ -41,7 +41,7 @@ while jobs_remaining > batch_size:
 #PBS -l walltime=02:00:00
 #PBS -N keywordScrape
 #PBS -j oe
-cd /users/a/r/areagan/keyword-search
+cd /users/r/j/rjgallag/keyword-search
 
 . pyvenv/bin/activate
 
