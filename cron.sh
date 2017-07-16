@@ -1,4 +1,4 @@
-cd /users/a/r/areagan/keyword-search
+cd /users/r/j/rjgallag/keyword-search
 # call python directly
 # the older architecture
 # /gpfs1/arch/x86_64/python3.2.2/bin/python3 qsub.py
